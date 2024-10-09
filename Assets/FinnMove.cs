@@ -9,6 +9,8 @@ public class FinnMove : MonoBehaviour
     [SerializeField] float playerSpeed;
     [SerializeField] float maxSpeed;
     [SerializeField] float jumpForce;
+    [SerializeField] int jumpCount;
+    int jumpMax;
     private int playerDirection;
     private Rigidbody2D rigidBody;
     // Start is called before the first frame update
@@ -16,6 +18,7 @@ public class FinnMove : MonoBehaviour
     {
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         playerDirection = 0;
+        jumpMax = jumpCount;
     }
 
     // Update is called once per frame
@@ -33,8 +36,9 @@ public class FinnMove : MonoBehaviour
         }
         rigidBody.AddForce(Vector3.right * playerSpeed * playerDirection);
         //This is where we add force for character jump.
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && jumpCount>0)
         {
+            jumpCount--;
             rigidBody.AddForce(Vector3.up * jumpForce);
         }
         //Put in max speed
@@ -45,6 +49,13 @@ public class FinnMove : MonoBehaviour
         }
 
 
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            jumpCount = jumpMax;
+        }
     }
 
 }

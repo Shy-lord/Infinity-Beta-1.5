@@ -5,7 +5,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinnMove : MonoBehaviour
+public class enemyMovement : MonoBehaviour
 {
     [SerializeField] float playerSpeed;
     [SerializeField] float maxSpeed;
@@ -38,13 +38,13 @@ public class FinnMove : MonoBehaviour
         }
         rigidBody.AddForce(Vector3.right * playerSpeed * playerDirection);
         //This is where we add force for character jump.
-        if (Input.GetKeyDown(KeyCode.Space) && jumpCount>0)
+        if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0)
         {
             jumpCount--;
             rigidBody.AddForce(Vector3.up * jumpForce);
         }
         //Put in max speed
-        if (Mathf.Abs(rigidBody.velocity.x) > maxSpeed * maxSpeed)
+        if (rigidBody.velocity.sqrMagnitude > maxSpeed * maxSpeed)
         {
             Vector3 norm = rigidBody.velocity.normalized;
             rigidBody.velocity = new Vector3(norm.x * maxSpeed, norm.y * maxSpeed, norm.z * maxSpeed);
@@ -67,5 +67,4 @@ public class FinnMove : MonoBehaviour
             jumpCount = jumpMax;
         }
     }
-
 }

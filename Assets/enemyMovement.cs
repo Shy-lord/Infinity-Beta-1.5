@@ -15,45 +15,37 @@ public class enemyMovement : MonoBehaviour
     int jumpMax;
     private int playerDirection;
     private Rigidbody2D rigidBody;
+    public Vector3 oldPos;
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
-        playerDirection = 0;
+        playerDirection = 1;
         jumpMax = jumpCount;
+        oldPos = Vector2.zero;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //This is where we add force for character movement.
-        playerDirection = 0;
-        if (Input.GetKey(KeyCode.D))
-        {
-            playerDirection += 1;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            playerDirection += -1;
-        }
-        rigidBody.AddForce(Vector3.right * playerSpeed * playerDirection);
+        rigidBody.velocity = new Vector2(playerSpeed * playerDirection, 0);
         //This is where we add force for character jump.
-        if (Input.GetKeyDown(KeyCode.Space) && jumpCount > 0)
-        {
-            jumpCount--;
-            rigidBody.AddForce(Vector3.up * jumpForce);
-        }
+        
         //Put in max speed
         if (rigidBody.velocity.sqrMagnitude > maxSpeed * maxSpeed)
         {
             Vector3 norm = rigidBody.velocity.normalized;
             rigidBody.velocity = new Vector3(norm.x * maxSpeed, norm.y * maxSpeed, norm.z * maxSpeed);
         }
-
-
+        
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+            Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.tag == "Back")
+        {
+            playerDirection *= -1;
+        }
         if (collision.gameObject.tag == "Enemy")
         {
             health--;

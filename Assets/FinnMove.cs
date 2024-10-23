@@ -37,17 +37,16 @@ public class FinnMove : MonoBehaviour
             playerDirection += -1;
         }
         rigidBody.AddForce(Vector3.right * playerSpeed * playerDirection);
+        //Put in max speed
+        if (Mathf.Abs(rigidBody.velocity.x) > maxSpeed)
+        {
+            rigidBody.velocity = new Vector2((rigidBody.velocity.x / Mathf.Abs(rigidBody.velocity.x)) * maxSpeed, rigidBody.velocity.y);
+        }
         //This is where we add force for character jump.
         if (Input.GetKeyDown(KeyCode.Space) && jumpCount>0)
         {
             jumpCount--;
             rigidBody.AddForce(Vector3.up * jumpForce);
-        }
-        //Put in max speed
-        if (Mathf.Abs(rigidBody.velocity.x) > maxSpeed * maxSpeed)
-        {
-            Vector3 norm = rigidBody.velocity.normalized;
-            rigidBody.velocity = new Vector3(norm.x * maxSpeed, norm.y * maxSpeed, norm.z * maxSpeed);
         }
 
 

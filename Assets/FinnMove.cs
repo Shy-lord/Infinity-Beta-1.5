@@ -12,6 +12,7 @@ public class FinnMove : MonoBehaviour
     [SerializeField] float jumpForce;
     [SerializeField] int jumpCount;
     [SerializeField] float health;
+    [SerializeField] bool powered;
     int jumpMax;
     private int playerDirection;
     private Rigidbody2D rigidBody;
@@ -21,6 +22,7 @@ public class FinnMove : MonoBehaviour
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         playerDirection = 0;
         jumpMax = jumpCount;
+        powered = false;
     }
 
     // Update is called once per frame
@@ -56,7 +58,11 @@ public class FinnMove : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             health--;
-            if (health >= 0)
+            if (powered)
+            {
+                Destroy(collision.gameObject);
+            }
+            else if (health <= 0)
             {
                 SceneManager.LoadScene(0);
             }
@@ -64,6 +70,12 @@ public class FinnMove : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             jumpCount = jumpMax;
+        }
+        if (collision.gameObject.tag == "Power_Up")
+        {
+            bool powered = true;
+
+            Destroy(collision.gameObject);
         }
     }
 

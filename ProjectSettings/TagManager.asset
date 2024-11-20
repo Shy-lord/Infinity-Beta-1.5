@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Enemy
   - Back
+  - Power_Up
+  - Powered
   layers:
   - Default
   - TransparentFX

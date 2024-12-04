@@ -42,6 +42,11 @@ public class enemyMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
             Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.tag == "Powered")
+        {
+            Destroy(this);
+            return;
+        }
         if (collision.gameObject.tag == "Back")
         {
             playerDirection *= -1;

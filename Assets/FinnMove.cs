@@ -55,7 +55,7 @@ public class FinnMove : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" && gameObject.tag != "Powered")
         {
             health--;
             if (powered)
@@ -74,7 +74,7 @@ public class FinnMove : MonoBehaviour
         if (collision.gameObject.tag == "Power_Up")
         {
             bool powered = true;
-
+            gameObject.tag = "Powered";
             Destroy(collision.gameObject);
         }
     }

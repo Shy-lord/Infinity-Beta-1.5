@@ -44,7 +44,8 @@ public class enemyMovement : MonoBehaviour
             Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag == "Powered")
         {
-            Destroy(this);
+            Destroy(gameObject);
+            /*TODO: Remove tag from player*/
             return;
         }
         if (collision.gameObject.tag == "Back")

@@ -55,18 +55,6 @@ public class FinnMove : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" && gameObject.tag != "Powered")
-        {
-            health--;
-            if (powered)
-            {
-                Destroy(collision.gameObject);
-            }
-            else if (health <= 0)
-            {
-                SceneManager.LoadScene(0);
-            }
-        }
         if (collision.gameObject.tag == "Ground")
         {
             jumpCount = jumpMax;

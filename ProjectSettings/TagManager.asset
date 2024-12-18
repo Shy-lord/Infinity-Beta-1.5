@@ -9,6 +9,7 @@ TagManager:
   - Back
   - Power_Up
   - Powered
+  - Normal
   layers:
   - Default
   - TransparentFX

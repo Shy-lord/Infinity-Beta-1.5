@@ -44,25 +44,17 @@ public class enemyMovement : MonoBehaviour
             Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag == "Powered")
         {
+            collision.gameObject.tag = "Normal";
             Destroy(gameObject);
-            /*TODO: Remove tag from player*/
             return;
+        }
+        if(collision.gameObject.tag == "Normal")
+        {
+            SceneManager.LoadScene(0);
         }
         if (collision.gameObject.tag == "Back")
         {
             playerDirection *= -1;
-        }
-        if (collision.gameObject.tag == "Enemy")
-        {
-            health--;
-            if (health >= 0)
-            {
-                SceneManager.LoadScene(0);
-            }
-        }
-        if (collision.gameObject.tag == "Ground")
-        {
-            jumpCount = jumpMax;
         }
     }
 }

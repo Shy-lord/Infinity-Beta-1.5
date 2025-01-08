@@ -1,0 +1,4857 @@
+fileFormatVersion: 2
+guid: e045110e66f23984ebd6bf0b45fa0dea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: conveyor_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e969205acf23248a913d6d160a443a
+      internalID: 306332216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6af81d86bfcb249842ffbac1f34df3
+      internalID: 2063939263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e3b87c9db85384d9781479ff835c95
+      internalID: 832508519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e727681147088c4c9168c61bd2f8816
+      internalID: 56873692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e616dc8854c5c143bdde5baf7de780e
+      internalID: -1733803376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c8dd3b8ad11c24db8d7652b179e787
+      internalID: 969417601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5e6fa4f96afc442abe16cf3ebc514d
+      internalID: -1627426538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a58efff0807f444b1d1e3a6f33ffb0
+      internalID: -2027922571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163c0216580c6464ead1a624befda37b
+      internalID: 836585669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938ce040dad4b02469f5aa2f0bff3ced
+      internalID: 87529750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed28f5b9baf5f5a44b67344c94d3d7d2
+      internalID: 208595408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130e9529df91e8447a64d4b955f5b17a
+      internalID: 589988270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28934d7365fd034195f226269d9e07e
+      internalID: 432520321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ca04fef262c149a345ac3ca5e4412
+      internalID: -1246480568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554e4be078fbe7c49b95eef0a1c0681f
+      internalID: 1197254177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bffc40fe5b99424686cd038dd1fbf67
+      internalID: -1955966259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eb48ee4e581ea4ca3e71283c3eda61
+      internalID: -1207841036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 878
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2a8fabda4a23418faff8920279bbc
+      internalID: -2065473207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fc9849ab5189149a53c2c78f6bce38
+      internalID: 1924814509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0c2a341d479dc4cbb63a01a8a92a34
+      internalID: 28646248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4414095defc9f634e997008e4e0f010c
+      internalID: 1111789064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaeeeaca5d811b45b04771d892ebd8d
+      internalID: 1615583229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f634be4bb3aa345b7c890335075242
+      internalID: -1467504950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2a429e22e8fc843be3636fde38921f
+      internalID: -836910045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed64a0b01dd48042a21f8b49383ca55
+      internalID: 1592451600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca13599934f7948bf4f4dab4b80d90
+      internalID: 1640356782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68695bffe1d025347b19f63a6cf8c4e1
+      internalID: 159276221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e723dcfc241246f4a8d03a5147a582a7
+      internalID: 967339442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e137ac7798111eb438a9ccb619aea117
+      internalID: -1838261167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e81ccb69e87fa469f43518f53742b6
+      internalID: 1966908634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aee5decb19c0fa4ea67390c989c4461
+      internalID: -2111395309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aff9973a7109a43867f8b225b5dda0
+      internalID: 206364758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2220588b783094880aa4b3f38a5a46
+      internalID: -473171629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5df4d08d00ef445925225c9d9faa42
+      internalID: -1154149948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2eb5cda96c25bf46b9eba5e7298f38f
+      internalID: 333288377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 811
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9d97869de20b49b885da6dd72f86b
+      internalID: 1918299009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5124bb6445b4c354e8e8543cf791af85
+      internalID: 609824316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737cb7a9fb4fa104791aa3127b0771b5
+      internalID: -1034826912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2352e13dea6d204d968af8211bb8222
+      internalID: -1672559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e77f9fc3747f3441ba15b16cbc023ae
+      internalID: -1149357085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b7ffa92dfe60e40b4fd192a1d37b2e
+      internalID: 1369988079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8794a052ce1744a2993d986d78131
+      internalID: -362932987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f7ed3c7bdab641a45422e8cb10444
+      internalID: -933571817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fe1e402e238c4c80674e4aeb89430
+      internalID: 46556138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc925137f046d7e44a142666dee8c0bd
+      internalID: -948441351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3bb8d260f326b4593efad0ccc84812
+      internalID: -762692272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b74ac3d75658b5459c124c9a85f06ac
+      internalID: -1971885514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6b15bc5d2b91e4aa6caf5f58bf966c
+      internalID: -229174261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab6682cef8def428aa9942cefa3e71
+      internalID: 1265996697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c407ea638d45db441a2eaa7539e2f35b
+      internalID: -257967486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ea5bcb26b24864c8e49b976d4cad6d
+      internalID: 348090876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddcb0112db0316418965191a3582afb
+      internalID: 360526463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 744
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d88cf57ef7404d43a036aee278a2f05
+      internalID: -2111991778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3450b1645c9fc164793626a70459349f
+      internalID: 997808777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9cfc081f93b647ad83f1585f7c00b
+      internalID: -1567417443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e9c33e5eae4a64f9b6e6d2badc2da4
+      internalID: 79839156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc48271c181b454fa0455bb7242a931
+      internalID: 1911306580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7c7abbe5c5fe744b449000850b7b7a
+      internalID: 1644826604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9a734b9664e0419b2f0d90b040e7a
+      internalID: -1410373741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf508c1593ef0242898604cca767665
+      internalID: 1857233181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4e9182789d0f84aae38a39d0b0d851
+      internalID: -878680497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6e9f3a5a9c80b4c99dce4b17029306
+      internalID: 945504814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d844322097a8744bb2c61589deac323
+      internalID: -55084179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0ab11cbec44714a815407db6686b44
+      internalID: 1735696151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b39ae8407479b84189855778ef666e1
+      internalID: 522567310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dbc935b4847274cb6f7f6a44eb0adb
+      internalID: -1999126791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec013910321b3141b8091612bc034a3
+      internalID: -1490949573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c41c07d508c514293df6915139bc74
+      internalID: -1683799391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cb5b2c686b5b943a9614d6cd7aa593
+      internalID: -1294265463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1189c70da1ef03d45a59e7682d10ca69
+      internalID: -983312268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 677
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c43e2c6eaf7f74abfc9f329cb7a3b4
+      internalID: -1003977546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de89515dd1dc8b48a6713929d738984
+      internalID: -1957303660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041e4a00159697d4b8384d6103a21e4b
+      internalID: 1429028334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412ad93c1e1123e4bba2da62a3451562
+      internalID: 940527592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e52a1071c3bec4faa9935eca932729
+      internalID: -1103783545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87473d25826cba241b6e18414ba3a515
+      internalID: 1446495737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7286529573077954aae9d258ae8a533e
+      internalID: 2011789588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535577862b3708a479c43ba6adf7b7df
+      internalID: 142361642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b937b63ef239349b56ae74f94e2a35
+      internalID: -704071507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53b8beb62c1d064da10bdd235924472
+      internalID: -130558475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cbbc5cde6256b4dab3ea22adef07fe
+      internalID: 1635542462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955a0cf5c38ce3449f4cb0919fb4cb7
+      internalID: 505194507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1d81a13ae92e9499244079087ca7fa
+      internalID: 1018683350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affaca41435b80843b3b2f6852d08a64
+      internalID: -66715652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff8861a9b8a26f45976a9ff1a1485bc
+      internalID: -1463487228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b77dbc718702641a92db54d4168511
+      internalID: -473762845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e821c306d73a5eb48a45fb7829e94575
+      internalID: 10464681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94e5f95521fc04b9ba3be1497c9de9
+      internalID: -508467526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 610
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b9387b67ddcee4a9f1e438f92909bd
+      internalID: 1787961597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9ee811bd3efe4aa9d667c714e486e
+      internalID: -1309809646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_90
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647588042d8b8a845b9da04093fd39ea
+      internalID: 168309244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_91
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4e14c1584e45d4fb2d553110b28f52
+      internalID: 1770312464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_92
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd542a3fc6608004a8cb50d805a924fe
+      internalID: 1774255285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_93
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832754bf8832a245a04baacd677539e
+      internalID: -1440465429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_94
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b388fc66ebab9e4584bd85a189d6de9
+      internalID: -1880266023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_95
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b06130a3950c3458bc52a164348f69
+      internalID: -935118816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0121a3b9f851dcb4f8b7fc74fbd3df96
+      internalID: 1964862355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d865832d783aebe45a0d36787111c08a
+      internalID: 1875077056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd11186308878ee46bcd9d9b74a8fe75
+      internalID: -223409040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8863e5994dd8b834c8945d9b7b58a9d2
+      internalID: -1416012745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c15f159c116fa4380b3935499ade72
+      internalID: 698126342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_101
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f51e252b58a2245b1c897c2c8a6a3e
+      internalID: -669122714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_102
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a7bd095b5bf0c4bb50da6ba3648735
+      internalID: -956880276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_103
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3e39e773515f148a73a4288b08b181
+      internalID: 487748692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_104
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63b37db43aeb8d47881eba709e6f7d4
+      internalID: -1820152811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_105
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f5b7f654ab19c4abd75eb174a4b130
+      internalID: -2021080403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_106
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 543
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aa62021a1da204881374ea4730815a
+      internalID: -1344437521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_107
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3a3452613eab74aad0f84e2fdce4c4
+      internalID: -1414830119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_108
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823a30e829013024cbfa40a0f3e006cc
+      internalID: -1407503191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_109
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec636b44565a4e41a5470d7f04afc8b
+      internalID: -5237146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_110
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b6ab05d7e289844b1c21fc2ba95ab1
+      internalID: 953903003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_111
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd9eed847612cf46b6bd6cb3de4f5a3
+      internalID: -111076786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_112
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1698be55b5150bc418c660ff0dac7910
+      internalID: 1757289571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_113
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61a9630aafa15468a4bf7e3172b6fc
+      internalID: -705591173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_114
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854f8af6f59531c4eab5b012a3028a58
+      internalID: -1205229461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_115
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c145c05838153428867e452bf844d6
+      internalID: 1239838239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_116
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3ce25ea16db1a40bdef99b2327b49e
+      internalID: -1413727077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_117
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88494eb7be1bbd64f9d9ff274c39fd49
+      internalID: -165149924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_118
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e64af4ec9a934248bbe44898d93f2aa
+      internalID: -1223155485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_119
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de25b6531db7fa46ac8d586075881ec
+      internalID: -1651701802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_120
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d89c48bc63e95428325960e330ff52
+      internalID: -1541433253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_121
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ef66fc32c17e4fa8a55338789e0a3
+      internalID: -1505718574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_122
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36483b072445cdd45bd6ca1e353d9a44
+      internalID: -175211273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_123
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc30c899266aa445b758fa3f7d48b99
+      internalID: -2038123444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_124
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 476
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de60558db93cbf4449d028e595c4894e
+      internalID: -1201761473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_125
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b43f7798ccba3149b05aec9a7b69193
+      internalID: -894655263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_126
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c466fa7ca4a6a24cb35e95b396c9d1f
+      internalID: -1113819196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_127
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c39a1eea008ac444941c22bf37ef01b
+      internalID: -1650280694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_128
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e0b5186e1e35844a151d25fd160e03
+      internalID: -1850366802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_129
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eba593cf0e48c44abb11c0c0b5bf5d
+      internalID: -1133359977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_130
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ec7c872d6537543a630176914f5d06
+      internalID: 83488816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_131
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f36aebedf97fe44a790fae7dc0f627
+      internalID: 965855388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_132
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678eac58323dd74409abc06ba24afb5e
+      internalID: -1700657985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_133
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231c2bd33e41aaa4b807185e80f6f40d
+      internalID: -665553202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_134
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eacb0f258ebe94fa3dd74bf7af2d69
+      internalID: -1605901730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_135
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc84b04c6916acd4ea21e64ea4854d6d
+      internalID: 468564345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_136
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957a2dc3f45260844b4df59e8f4b831c
+      internalID: -1430392826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_137
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8d5dfe8e71fe140839964451c77a3c
+      internalID: 77106781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_138
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ab637c6fe74584485557d485c6cac8
+      internalID: 1198018985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_139
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312ea172afe5eba4e8e7ba5e9ae26a57
+      internalID: 1422972882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_140
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb756edaa771c042bea8b3a01beac4b
+      internalID: 613895431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_141
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfc3fa569365804eaa72980dafe1243
+      internalID: 396584667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_142
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 409
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2951ec996f2ce7240869e21415b34fc9
+      internalID: 1341850669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ecee6f8ad58e42bd6a357781a98ab
+      internalID: 1207017929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_144
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7b5fbff37da6449bc25f7dda6f6d06
+      internalID: -708277599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_145
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe426451d532bf4398e8e2409d6e561
+      internalID: -453581925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_146
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f9e840c685e0f47a2793642baae9e1
+      internalID: 892496509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_147
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa58fb34937f174790ac3067ab532ab
+      internalID: 591026736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_148
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817703468b7fd6d46b7631185b81d774
+      internalID: -1033815797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_149
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116a6c65cfcb5747a7921e614d46b2d
+      internalID: -1661280068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_150
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1cdd49450fec24d908feefe8d138c3
+      internalID: 259161365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_151
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8f1fdbe726cc342a310f37a7b858c8
+      internalID: -399533151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_152
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6017a878e9b9a784e99caa71acb9f2f6
+      internalID: 944112764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_153
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9474d99e9524d8246978e735a608d319
+      internalID: -1423852408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_154
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c6a046e55a71d41898666a180d80fc
+      internalID: -152092662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_155
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c7d580c00c65c46b075c7c64a4095c
+      internalID: -870119604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_156
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda685031a2ef474cbb342c34c8002db
+      internalID: 650213461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_157
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56839437a68164448ee1e786979e564
+      internalID: -76367174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_158
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf78e879689f85479ab69e5f3384def
+      internalID: -913860003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_159
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b71900c29b53a14ba4f228eb4495da3
+      internalID: 720774112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_160
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728ddc227a49d9b4fad9d44089800653
+      internalID: -1795974209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_161
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745a82f696d5014cb08b20427f8af1b
+      internalID: -1623639018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_162
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42797b072c678af4cab09e3a648c2322
+      internalID: -1557064372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_163
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4568b967158174eb7cc9ad0d7b5fe4
+      internalID: -1981270556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_164
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe70fa2e7b1698c44a8958139e5d3f5b
+      internalID: -934704439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_165
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4a74bb8a08e9f479d618054b025fcc
+      internalID: -524868962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_166
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86269239eed68494cb7a51fab1764903
+      internalID: 256268977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_167
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dee0809a6ec0d4458a74acc351822f1
+      internalID: -712557635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_168
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eedb41205a92a439c85a990604d748
+      internalID: 786343886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_169
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97aecae372b222d4db5cee85353428c8
+      internalID: -1724558040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_170
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9a5f72de8387e4fa8d1d45350428b0
+      internalID: -138727112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_171
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a5326d024563c47a2525a77e941c39
+      internalID: -1543320948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_172
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba0dd9ad70581d4c935f915625e7dde
+      internalID: -302766386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_173
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc635a6e3edf9d44b2d09c2987b7f14
+      internalID: -548460044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_174
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ad9a98bac0aa642b15ac45ca8545f4
+      internalID: -612109956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_175
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadf7362d6b395d41896bcb7adeb3a87
+      internalID: -587155189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_176
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6a3742d79576d42879a45bbb2c5ba9
+      internalID: 1079453128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_177
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05648273a2cfb4c4e934c24b207129a1
+      internalID: 641416318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_178
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e341485486920ed46be92163508b55ba
+      internalID: -1125847483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_179
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec92a279fbc7f754d8ed83da90716ea4
+      internalID: 474141905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_180
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1901e1e152c31d245ba0e4fa7dad069e
+      internalID: -2071054050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_181
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ebbb4bf49a084d8302c70e1712ca3
+      internalID: -1892983480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_182
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56cfe523b18d604ea79d5b7d00ffc55
+      internalID: 967632350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_183
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fce0a5b473ec14cb041c4bfd91a11e
+      internalID: -344382093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_184
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab973392521d243b09fe6bc5050538
+      internalID: 1917468002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_185
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f50c41728ec1449b611f5f2949a06a
+      internalID: -256867434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_186
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001d2254b7db075428415e260d863f23
+      internalID: -1459894199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_187
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d1897351ec002448c24caa193b8f4c
+      internalID: 1669670621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_188
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b775a4fb37b1540b746cb899c0b3f1
+      internalID: -171775502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_189
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be327d48111414d8f6f4f388f67f5f
+      internalID: 544970084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_190
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9db5d290f3486498d69b91f271f2bc
+      internalID: -162819624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_191
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072b332855d813e49ac974fac65e4771
+      internalID: -1267834236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_192
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a5eaab8c148742b8e7987d4bf023d
+      internalID: 1519955155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_193
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd9ae486157c3a4da362507ab3fe04a
+      internalID: 1150910305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_194
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d880de2e766f0448a03e8f014510f59
+      internalID: 157750542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_195
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdcc2b667c3e1646ac21ba56aa03b21
+      internalID: -1588407313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_196
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 208
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14038fad11a3dec469fdcfe809617d5b
+      internalID: -1214623006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_197
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509af4be2f7581e4eb0a5d9025574404
+      internalID: -1722721977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_198
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbde13acc0b7bc4bae2266a3066d804
+      internalID: 1840650378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_199
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58af9fb68ce8c3439131f793d6abf2f
+      internalID: -353180151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_200
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef596327f2d874db0f8af9f71a24bc
+      internalID: 2128179563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_201
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eef171b54adee4c8400709f92421a8
+      internalID: 501400738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_202
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134d6c49fc8d6b34ea6e3b2114a3b34c
+      internalID: 1547552661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_203
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dac660bef44d146b23f597be3c9c3e
+      internalID: -1701499583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_204
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe3b7d1ad7f0634998e03df916eab1e
+      internalID: 700087469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_205
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fe9eb894bed6644893b9e4cd2b5ec1
+      internalID: 14249690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_206
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accaa5b17e0512b499997576ef91c970
+      internalID: 482821862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_207
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81541cc3379663c4bbe06466f53bff93
+      internalID: -503436229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_208
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb31af410a99ad4f97f556467a62017
+      internalID: -984347916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_209
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d10abefe9b415b4fbee1febef6482a3
+      internalID: 467250721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_210
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd73d097244ba4c8703130d230f698
+      internalID: -595880520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_211
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d563fa25eb4ae41a149fa404b8c180
+      internalID: -1226135007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_212
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf12251b7ad9ee64b8499cc6f0ea74f1
+      internalID: 852824091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_213
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8fca9ca625acf4c894e6e93cd5bb13
+      internalID: -1550866492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conveyor_sprites_214
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 141
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9238638958e768b48803790a76697e77
+      internalID: -2114978273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      conveyor_sprites_0: 306332216
+      conveyor_sprites_1: 2063939263
+      conveyor_sprites_10: 208595408
+      conveyor_sprites_100: 698126342
+      conveyor_sprites_101: -669122714
+      conveyor_sprites_102: -956880276
+      conveyor_sprites_103: 487748692
+      conveyor_sprites_104: -1820152811
+      conveyor_sprites_105: -2021080403
+      conveyor_sprites_106: -1344437521
+      conveyor_sprites_107: -1414830119
+      conveyor_sprites_108: -1407503191
+      conveyor_sprites_109: -5237146
+      conveyor_sprites_11: 589988270
+      conveyor_sprites_110: 953903003
+      conveyor_sprites_111: -111076786
+      conveyor_sprites_112: 1757289571
+      conveyor_sprites_113: -705591173
+      conveyor_sprites_114: -1205229461
+      conveyor_sprites_115: 1239838239
+      conveyor_sprites_116: -1413727077
+      conveyor_sprites_117: -165149924
+      conveyor_sprites_118: -1223155485
+      conveyor_sprites_119: -1651701802
+      conveyor_sprites_12: 432520321
+      conveyor_sprites_120: -1541433253
+      conveyor_sprites_121: -1505718574
+      conveyor_sprites_122: -175211273
+      conveyor_sprites_123: -2038123444
+      conveyor_sprites_124: -1201761473
+      conveyor_sprites_125: -894655263
+      conveyor_sprites_126: -1113819196
+      conveyor_sprites_127: -1650280694
+      conveyor_sprites_128: -1850366802
+      conveyor_sprites_129: -1133359977
+      conveyor_sprites_13: -1246480568
+      conveyor_sprites_130: 83488816
+      conveyor_sprites_131: 965855388
+      conveyor_sprites_132: -1700657985
+      conveyor_sprites_133: -665553202
+      conveyor_sprites_134: -1605901730
+      conveyor_sprites_135: 468564345
+      conveyor_sprites_136: -1430392826
+      conveyor_sprites_137: 77106781
+      conveyor_sprites_138: 1198018985
+      conveyor_sprites_139: 1422972882
+      conveyor_sprites_14: 1197254177
+      conveyor_sprites_140: 613895431
+      conveyor_sprites_141: 396584667
+      conveyor_sprites_142: 1341850669
+      conveyor_sprites_143: 1207017929
+      conveyor_sprites_144: -708277599
+      conveyor_sprites_145: -453581925
+      conveyor_sprites_146: 892496509
+      conveyor_sprites_147: 591026736
+      conveyor_sprites_148: -1033815797
+      conveyor_sprites_149: -1661280068
+      conveyor_sprites_15: -1955966259
+      conveyor_sprites_150: 259161365
+      conveyor_sprites_151: -399533151
+      conveyor_sprites_152: 944112764
+      conveyor_sprites_153: -1423852408
+      conveyor_sprites_154: -152092662
+      conveyor_sprites_155: -870119604
+      conveyor_sprites_156: 650213461
+      conveyor_sprites_157: -76367174
+      conveyor_sprites_158: -913860003
+      conveyor_sprites_159: 720774112
+      conveyor_sprites_16: -1207841036
+      conveyor_sprites_160: -1795974209
+      conveyor_sprites_161: -1623639018
+      conveyor_sprites_162: -1557064372
+      conveyor_sprites_163: -1981270556
+      conveyor_sprites_164: -934704439
+      conveyor_sprites_165: -524868962
+      conveyor_sprites_166: 256268977
+      conveyor_sprites_167: -712557635
+      conveyor_sprites_168: 786343886
+      conveyor_sprites_169: -1724558040
+      conveyor_sprites_17: -2065473207
+      conveyor_sprites_170: -138727112
+      conveyor_sprites_171: -1543320948
+      conveyor_sprites_172: -302766386
+      conveyor_sprites_173: -548460044
+      conveyor_sprites_174: -612109956
+      conveyor_sprites_175: -587155189
+      conveyor_sprites_176: 1079453128
+      conveyor_sprites_177: 641416318
+      conveyor_sprites_178: -1125847483
+      conveyor_sprites_179: 474141905
+      conveyor_sprites_18: 1924814509
+      conveyor_sprites_180: -2071054050
+      conveyor_sprites_181: -1892983480
+      conveyor_sprites_182: 967632350
+      conveyor_sprites_183: -344382093
+      conveyor_sprites_184: 1917468002
+      conveyor_sprites_185: -256867434
+      conveyor_sprites_186: -1459894199
+      conveyor_sprites_187: 1669670621
+      conveyor_sprites_188: -171775502
+      conveyor_sprites_189: 544970084
+      conveyor_sprites_19: 28646248
+      conveyor_sprites_190: -162819624
+      conveyor_sprites_191: -1267834236
+      conveyor_sprites_192: 1519955155
+      conveyor_sprites_193: 1150910305
+      conveyor_sprites_194: 157750542
+      conveyor_sprites_195: -1588407313
+      conveyor_sprites_196: -1214623006
+      conveyor_sprites_197: -1722721977
+      conveyor_sprites_198: 1840650378
+      conveyor_sprites_199: -353180151
+      conveyor_sprites_2: 832508519
+      conveyor_sprites_20: 1111789064
+      conveyor_sprites_200: 2128179563
+      conveyor_sprites_201: 501400738
+      conveyor_sprites_202: 1547552661
+      conveyor_sprites_203: -1701499583
+      conveyor_sprites_204: 700087469
+      conveyor_sprites_205: 14249690
+      conveyor_sprites_206: 482821862
+      conveyor_sprites_207: -503436229
+      conveyor_sprites_208: -984347916
+      conveyor_sprites_209: 467250721
+      conveyor_sprites_21: 1615583229
+      conveyor_sprites_210: -595880520
+      conveyor_sprites_211: -1226135007
+      conveyor_sprites_212: 852824091
+      conveyor_sprites_213: -1550866492
+      conveyor_sprites_214: -2114978273
+      conveyor_sprites_22: -1467504950
+      conveyor_sprites_23: -836910045
+      conveyor_sprites_24: 1592451600
+      conveyor_sprites_25: 1640356782
+      conveyor_sprites_26: 159276221
+      conveyor_sprites_27: 967339442
+      conveyor_sprites_28: -1838261167
+      conveyor_sprites_29: 1966908634
+      conveyor_sprites_3: 56873692
+      conveyor_sprites_30: -2111395309
+      conveyor_sprites_31: 206364758
+      conveyor_sprites_32: -473171629
+      conveyor_sprites_33: -1154149948
+      conveyor_sprites_34: 333288377
+      conveyor_sprites_35: 1918299009
+      conveyor_sprites_36: 609824316
+      conveyor_sprites_37: -1034826912
+      conveyor_sprites_38: -1672559
+      conveyor_sprites_39: -1149357085
+      conveyor_sprites_4: -1733803376
+      conveyor_sprites_40: 1369988079
+      conveyor_sprites_41: -362932987
+      conveyor_sprites_42: -933571817
+      conveyor_sprites_43: 46556138
+      conveyor_sprites_44: -948441351
+      conveyor_sprites_45: -762692272
+      conveyor_sprites_46: -1971885514
+      conveyor_sprites_47: -229174261
+      conveyor_sprites_48: 1265996697
+      conveyor_sprites_49: -257967486
+      conveyor_sprites_5: 969417601
+      conveyor_sprites_50: 348090876
+      conveyor_sprites_51: 360526463
+      conveyor_sprites_52: -2111991778
+      conveyor_sprites_53: 997808777
+      conveyor_sprites_54: -1567417443
+      conveyor_sprites_55: 79839156
+      conveyor_sprites_56: 1911306580
+      conveyor_sprites_57: 1644826604
+      conveyor_sprites_58: -1410373741
+      conveyor_sprites_59: 1857233181
+      conveyor_sprites_6: -1627426538
+      conveyor_sprites_60: -878680497
+      conveyor_sprites_61: 945504814
+      conveyor_sprites_62: -55084179
+      conveyor_sprites_63: 1735696151
+      conveyor_sprites_64: 522567310
+      conveyor_sprites_65: -1999126791
+      conveyor_sprites_66: -1490949573
+      conveyor_sprites_67: -1683799391
+      conveyor_sprites_68: -1294265463
+      conveyor_sprites_69: -983312268
+      conveyor_sprites_7: -2027922571
+      conveyor_sprites_70: -1003977546
+      conveyor_sprites_71: -1957303660
+      conveyor_sprites_72: 1429028334
+      conveyor_sprites_73: 940527592
+      conveyor_sprites_74: -1103783545
+      conveyor_sprites_75: 1446495737
+      conveyor_sprites_76: 2011789588
+      conveyor_sprites_77: 142361642
+      conveyor_sprites_78: -704071507
+      conveyor_sprites_79: -130558475
+      conveyor_sprites_8: 836585669
+      conveyor_sprites_80: 1635542462
+      conveyor_sprites_81: 505194507
+      conveyor_sprites_82: 1018683350
+      conveyor_sprites_83: -66715652
+      conveyor_sprites_84: -1463487228
+      conveyor_sprites_85: -473762845
+      conveyor_sprites_86: 10464681
+      conveyor_sprites_87: -508467526
+      conveyor_sprites_88: 1787961597
+      conveyor_sprites_89: -1309809646
+      conveyor_sprites_9: 87529750
+      conveyor_sprites_90: 168309244
+      conveyor_sprites_91: 1770312464
+      conveyor_sprites_92: 1774255285
+      conveyor_sprites_93: -1440465429
+      conveyor_sprites_94: -1880266023
+      conveyor_sprites_95: -935118816
+      conveyor_sprites_96: 1964862355
+      conveyor_sprites_97: 1875077056
+      conveyor_sprites_98: -223409040
+      conveyor_sprites_99: -1416012745
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
